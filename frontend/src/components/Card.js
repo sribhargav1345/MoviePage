@@ -5,7 +5,7 @@ import './Card.css';
 const Card = ({movie}) => {
     return (
         <Link to={`/movies/${movie._id}`} style={{ textDecoration: 'none', color: 'inherit' }}>  
-            <div className="card">
+            <div className="card carding">
                 <div className='imageuu'>
                     <img src={movie.picture} alt={movie.name} />
                 </div>

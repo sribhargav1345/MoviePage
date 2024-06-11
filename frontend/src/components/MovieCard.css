@@ -1,15 +1,26 @@
-.carding {
+.carding2 {
     width: 80%;
     margin: 20px auto;
     padding: 20px;
     background: white;
     border-radius: 10px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-    display: flex;
-    align-items: center;
 }
 
-.imageuu {
+.first-line{
+    display: flex;
+    justify-content: space-around;
+}
+
+.side h1{
+    font-size: 64px;
+}
+
+.side{
+    width: 70%;
+}
+
+.imageuu2 {
     margin-right: 20px;
     width: 20%;
     display: flex;
@@ -17,50 +28,54 @@
     align-items: center;
 }
 
-.imageuu img {
+.imageuu2 img {
     height: 30vh;
     width: 100%;
     border-radius: 5px;
 }
 
-.right-part {
-    width: 80%;
+.right-part2 {
+    width: 100%;
     display: flex;
-    flex-direction: column;
-    text-align: left;
+    align-items: center;
+    justify-content: center;
 }
 
-.main-roles {
+.main-roles2 {
     display: flex;
     align-items: center;
 }
 
-.naming{
+.naming2{
     color: #784DC6;
 }
 
-.short{
+.short2{
     display: flex;
-    align-items: baseline;
+    align-items: center;
+    justify-content: center;
+    margin: 50px;
+    font-size: 1.1rem;
 }
 
-.main-roles h4 {
+.main-roles2 h3 {
     margin-right: 10px;
     font-weight: bold;
 }
 
-.short h4 {
+.short2 h3 {
     margin-right: 10px;
     font-weight: bold;
     width: max-content;
 }
 
-.main-roles p {
+.main-roles2 p {
     margin: 0;
+    font-size: large;
     color: #34495e;
 }
 
-.main-roles p, .short p {
+.main-roles2 p, .short2 p {
     margin: 0;
     color: #34495e;
     overflow: hidden;
@@ -78,4 +93,8 @@ p {
     font-size: 1em;
     color: #34495e;
     line-height: 1.5em;
+}
+
+@media (max-width: 768px) {
+    
 }
