@@ -1,0 +1,81 @@
+.card {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center; 
+}
+
+.imageuu {
+    margin-right: 20px;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imageuu img {
+    height: 30vh;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.right-part {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.main-roles {
+    display: flex;
+    align-items: center;
+}
+
+.naming{
+    color: #784DC6;
+}
+
+.short{
+    display: flex;
+    align-items: baseline;
+}
+
+.main-roles h4 {
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.short h4 {
+    margin-right: 10px;
+    font-weight: bold;
+    width: max-content;
+}
+
+.main-roles p {
+    margin: 0;
+    color: #34495e;
+}
+
+.main-roles p, .short p {
+    margin: 0;
+    color: #34495e;
+    overflow: hidden;
+    text-overflow: ellipsis; 
+    flex: 1;
+}
+
+h1 {
+    font-size: 2em;
+    color: #2c3e50;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 1em;
+    color: #34495e;
+    line-height: 1.5em;
+}
