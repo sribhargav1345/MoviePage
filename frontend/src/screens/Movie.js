@@ -14,7 +14,7 @@ export default function Movie() {
 
         console.log(movie_id);
 
-        const response = await fetch(`http://localhost:5000/api/movies/${movie_id}`, {
+        const response = await fetch(`https://moviepage-pathend.onrender.com/api/movies/${movie_id}`, {
           method: "GET",
           "headers": {
             "Content-Type": 'application/json'
