@@ -96,5 +96,82 @@ p {
 }
 
 @media (max-width: 768px) {
+    .side h1{
+        font-size: 48px;
+    }
+
+    .main-roles2 {
+        display: flex;
+        align-items: baseline;
+    }
+
+    .imageuu2 {
+        margin-right: 20px;
+        width: 40%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (max-width: 640px) {
+
+    .carding2 {
+        width: 80%;
+        margin: 20px auto;
+        background: white;
+        border-radius: 10px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .side{
+        width: 100%;
+    }
+
     
+    .first-line{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .imageuu2 {
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .first-line{
+        margin-left: 40px;
+    }
+
+    .side h1{
+        font-size: 30px;
+    }
+
+    .main-roles2 p {
+        margin: 0;
+        font-size: 1rem;
+        color: #34495e;
+    }
+    
+    .main-roles2 p, .short2 p{
+        margin: 0;
+        color: #34495e;
+        overflow: hidden;
+        text-overflow: ellipsis; 
+        font-size: 1rem;
+    }
+
+    .right-part2 {
+        width: 100%;
+    }
+
+    .short2{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 25px 0;
+        font-size: 1.1rem;
+    }
 }

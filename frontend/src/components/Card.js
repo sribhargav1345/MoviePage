@@ -17,10 +17,9 @@ const Card = ({movie}) => {
                             <p>{movie.main}</p>
                         </div>
                         <div className='short'>
-                            <h4>Short Description:</h4>
+                            <h4>Description:</h4>
                             <p>{movie.short_description}</p>
                         </div>
-                        
                     </div>
                 </div>
             </div>

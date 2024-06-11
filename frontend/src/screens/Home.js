@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import Card from '../components/Card';
 
+import "./Home.css";
+
 export default function Home() {
 
   const [movies, setMovies] = useState([]);
@@ -26,8 +28,6 @@ export default function Home() {
         }
 
         setMovies(result);
-
-        console.log(movies);
         setLoading(false);
 
       }

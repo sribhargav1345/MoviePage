@@ -63,6 +63,7 @@
 .main-roles p, .short p {
     margin: 0;
     color: #34495e;
+    font-size: 1.1rem;
     overflow: hidden;
     text-overflow: ellipsis; 
     flex: 1;
@@ -78,4 +79,38 @@ p {
     font-size: 1em;
     color: #34495e;
     line-height: 1.5em;
+}
+
+@media (max-width:768px) {
+    .carding{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .imageuu {
+        width: 70%;
+        height: 40vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .main-roles{
+        display: flex;
+        align-items: baseline;
+    }
+
+    .right-part{
+        padding-bottom: 20px;
+    }
+}
+
+@media (max-width:485px) {
+    .short p {
+        margin: 0;
+        color: #34495e;
+        font-size: 1rem;
+        white-space: pre-wrap;
+        flex: 1;
+    }
 }
